@@ -8,7 +8,6 @@ app = FastAPI()
 
 @app.post("/")
 async def login(trigger_id: str = Form(...)):
-    print('requested')
     data = {
         "trigger_id": trigger_id,
         "view": constants.MODAL,
