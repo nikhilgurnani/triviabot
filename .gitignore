@@ -1,0 +1,4 @@
+.vscode
+venv
+src/auth.py
+src/__pycache__
